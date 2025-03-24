@@ -1,0 +1,175 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: my-font;
+    src: url('Norse-Bold.otf');
+}
+
+/* CONTAINER */
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* LEFT SIDE */
+.plant {
+    width: 33.3%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.plant img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 25%;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    height: 120px;
+    width: 120px;
+    object-fit: contain;
+    padding-top: 20px;
+}
+
+.logo #signature {
+    font-size: 60px;
+    color: white;
+    font-family: my-font;
+}
+
+.plant p {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+/* RIGHT SIDE */
+.main {
+    width: 66.7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+/* TOP SECTION */
+.top {
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    padding: 40px;
+}
+
+#login-info {
+    font-size: 20px;
+    font-weight: 590;
+    max-width: 70%;
+    margin-bottom: 10px;
+}
+
+#cta {
+    font-size: 20px;
+    font-weight: 580;
+}
+
+/* FORM SECTION */
+.form {
+    background-color: white;
+    padding: 40px;
+    width: 100%;
+}
+
+#lets-do {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* FORM STYLING */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    width: 100%;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+form input:focus {
+    outline: 2px solid rgb(100, 100, 255);
+}
+
+/* FULL-WIDTH PASSWORD FIX */
+#password,
+#confirm-password {
+    grid-column: span 1;
+}
+
+/* BUTTON SECTION */
+.bottom {
+    background-color: rgb(243, 243, 243);
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background-color: #556B2F;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6b8e23;
+}
+
+/* LOGIN LINK */
+.bottom p {
+    margin-top: 10px;
+}
+
+.bottom a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
