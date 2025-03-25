@@ -1,10 +1,10 @@
-Login Form with Styled Layout
+**Login Form with Styled Layout**
 
-Project Overview
+**Project Overview**
 
 This project is a login/registration form with a modern, responsive layout. It includes a structured grid-based form for user input, a sidebar with a background image, and a dynamically styled heading. The goal of this project is to create a visually appealing and user-friendly form layout that organizes input fields efficiently.
 
-Features
+**Features**
 
 Responsive Design: Adjusts seamlessly to different screen sizes.
 
@@ -41,6 +41,6 @@ Flexbox & Grid: Used for aligning form elements efficiently.
 Custom Fonts: Imported for branding and typography consistency.
 
 
-Author
+**Author**
 
-This project was created by Sara BDW as part of The Odin Project.
+**This project was created by Sara BDW as part of The Odin Project.**
